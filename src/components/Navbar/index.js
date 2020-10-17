@@ -30,7 +30,8 @@ function Navbar() {
       }}
       >
       <text style={{  
-        flex: 1,   
+        flex: 1,
+        flexWrap:'wrap',  
         padding:'-20px',   
         fontSize:'80px',
         fontWeight:400,
