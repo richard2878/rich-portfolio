@@ -21,14 +21,11 @@ export default function MediaCard() {
   const classes = useStyles();
 
   return (
-    <Card 
-      className={classes.root}
-      style={{justifyContent:'center', padding:'25px', margin:'50px'}}
-      >
+    <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image="./SMood1.jpg"
           title="Contemplative Reptile"
         />
         <CardContent>
@@ -43,12 +40,13 @@ export default function MediaCard() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Repository
+          Share
         </Button>
         <Button size="small" color="primary">
-          Deployed
+          Learn More
         </Button>
       </CardActions>
     </Card>
   );
 }
+
