@@ -27,17 +27,16 @@ function Navbar() {
           marginTop: 0,
       }}>
         <text style={{  
-          fontSize:'60px',
+          fontSize:'55px',
           fontWeight:300,
           color: '#6D6A75',
-          marginLeft: '-50px',
+          marginLeft: '-45px',
           marginBottom: '-50px',
           fontFamily: 'Source Sans Pro, sans-serif',
           textShadow: '3px 3px WHITE',}}>Richard Antolin
         </text><br/>
         <text style={{
           color: 'white',
-          marginLeft: '25px',
           fontSize:'20px',
           textShadow: '2px 2px #white',
           }}>Full Stack Web Developer/UX Engineer
