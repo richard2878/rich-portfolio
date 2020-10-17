@@ -6,7 +6,7 @@ function Logosmall() {
     
     return (
         <div>
-            <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="120" height="120" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Frame 4" clip-path="url(#clip0)">
             <g id="Logo">
             <ellipse id="Ellipse" cx="100" cy="97" rx="72" ry="55" fill="white"/>

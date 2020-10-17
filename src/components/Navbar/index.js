@@ -12,50 +12,52 @@ function Navbar() {
   return (
     <nav 
     className="navbar navbar-expand-lg navbar-light"
-    style={{backgroundColor:'#BFBDC1'}}
+    style={{
+      backgroundColor:'#BFBDC1',
+    }}
+    
     >
       <Logo style={{
-        flex: 1,
         padding: 0,
         height: '80px',
+        flexDirection: 'column',
+        flexWrap: 'wrap',
       }}/>
       <div 
-      className="navbar-brand" 
-      to="/"
-      style={{
-        flex: 1,
-        padding: 'none',
-        height: '160px',
-        marginTop: 0,
-      }}
-      >
-      <text style={{  
-        flex: 1,
-        flexWrap:'wrap',  
-        padding:'-20px',   
-        fontSize:'80px',
-        fontWeight:400,
-        color: '#6D6A75',
-        marginLeft: '10px',
-        marginBottom: '-50px',
-        fontFamily: 'Source Sans Pro, sans-serif',
-        textShadow: '3px 3px WHITE',}}>Richard Antolin
-      </text><br/>
-      <text style={{
-        marginTop: '10px',
-        color: 'white',
-        marginLeft: '15px',
-        fontSize:'20px',
-        textShadow: '2px 2px #white',
-        flex: 1,
-        }}>Full Stack Web Developer/UX Engineer
-      </text>
+        className="navbar-brand" 
+        to="/"
+        style={{
+          padding: 'none',
+          height: '160px',
+          marginTop: 0,
+      }}>
+        <text style={{  
+          padding: '10px',
+          flexWrap: 1,
+          flex: 1,
+          fontSize:'60px',
+          fontWeight:300,
+          color: '#6D6A75',
+          marginLeft: '10px',
+          marginBottom: '-50px',
+          fontFamily: 'Source Sans Pro, sans-serif',
+          textShadow: '3px 3px WHITE',}}>Richard Antolin
+        </text><br/>
+        <text style={{
+          marginTop: '10px',
+          color: 'white',
+          marginLeft: '25px',
+          fontSize:'20px',
+          textShadow: '2px 2px #white',
+          flex: 1,
+          }}>Full Stack Web Developer/UX Engineer
+        </text>
       </div>
       
 
       <div>
         <ul className="navbar-nav"
-          style={{marginLeft: "30px",marginTop: "30px",}}>
+          style={{marginLeft: "450px"}}>
           <Tooltip title='About Me'>
             <li className="nav-item">
                 <Link
@@ -71,15 +73,12 @@ function Navbar() {
                     width: '150px',
                     padding: '10px',
                     marginRight: '50px',
-                    marginTop: '20px'
+                    marginBottom: '10px',
+                    alignItem: 'right',
                   }}
                   to="/"
-                  className={
-                    window.location.pathname === "/" || window.location.pathname === "/about"
-                      ? "nav-link active"
-                      : "nav-link"
-                  }
-                >
+                  className={window.location.pathname === "/" || 
+                            window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>
                   About
                 <Info style={{fontSize:'30px', marginLeft:'10px'}}/>
                 </Link>
@@ -99,7 +98,7 @@ function Navbar() {
                   width: '150px',
                   padding: '10px',
                   marginRight: '50px',
-                  marginTop: '20px'
+                  alignItems: 'right',
                 }}
                 
                 to="/portfolio"
