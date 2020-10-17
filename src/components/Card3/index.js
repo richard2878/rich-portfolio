@@ -44,10 +44,7 @@ export default function MediaCard() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
+            GitHub Repository
         </Button>
       </CardActions>
     </Card>

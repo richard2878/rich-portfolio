@@ -30,34 +30,36 @@ function Navbar() {
       }}
       >
       <text style={{  
-        flex: 1,      
-        fontSize:'90px',
+        flex: 1,   
+        padding:'-20px',   
+        fontSize:'80px',
         fontWeight:400,
         color: '#6D6A75',
         marginLeft: '10px',
         marginBottom: '-50px',
         fontFamily: 'Source Sans Pro, sans-serif',
-        textShadow: '3px 3px WHITE',}}>Richard Antolin</text><br/>
-        <text style={{
-          marginTop: '100px',
-          color: 'white',
-          marginLeft: '15px',
-          fontSize:'20px',
-          textShadow: '2px 2px #white',
-          flex: 1,
-        }}>Full Stack Web Developer/UX Engineer</text>
+        textShadow: '3px 3px WHITE',}}>Richard Antolin
+      </text><br/>
+      <text style={{
+        marginTop: '10px',
+        color: 'white',
+        marginLeft: '15px',
+        fontSize:'20px',
+        textShadow: '2px 2px #white',
+        flex: 1,
+        }}>Full Stack Web Developer/UX Engineer
+      </text>
       </div>
       
 
       <div>
         <ul className="navbar-nav"
-          style={{marginLeft: "50px",marginTop: "30px",}}>
+          style={{marginLeft: "30px",marginTop: "30px",}}>
           <Tooltip title='About Me'>
             <li className="nav-item">
                 <Link
                   className= "Iconbuttons"
-                  style={{
-                    fontFamily: 'Montserrat, sans-serif',
+                  style={{             
                     fontSize: '18px',
                     fontWeight:400,
                     color: "white",
@@ -68,7 +70,7 @@ function Navbar() {
                     width: '150px',
                     padding: '10px',
                     marginRight: '50px',
-                    marginTop: '90px'
+                    marginTop: '20px'
                   }}
                   to="/"
                   className={
@@ -86,7 +88,6 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
                   fontSize: '18px',
                   fontWeight:400,
                   color: "white",
@@ -97,7 +98,7 @@ function Navbar() {
                   width: '150px',
                   padding: '10px',
                   marginRight: '50px',
-                  marginTop: '90px'
+                  marginTop: '20px'
                 }}
                 
                 to="/portfolio"
