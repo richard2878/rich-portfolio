@@ -21,7 +21,11 @@ export default function MediaCard() {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root} style={{margin:'8px'}}>
+    <Card className={classes.root} 
+          style={{
+              margin:'8px', 
+              borderRadius:'15px 15px',
+              }}>
       <CardActionArea href="https://projectsmood.herokuapp.com/">
         <CardMedia
           className={classes.media}
@@ -30,20 +34,16 @@ export default function MediaCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            SMood Spotify Player
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            Tech Used:  REACT, CSS, HTML, Material UI, Bootstrap, Figma, Adobe Illustrator, Heroku
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
+          GitHub Repository
         </Button>
       </CardActions>
     </Card>

@@ -21,7 +21,11 @@ export default function MediaCard() {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root} style={{margin:'8px'}}>
+    <Card className={classes.root} 
+          style={{
+              margin:'8px', 
+              borderRadius:'15px 15px',
+              }}>
       <CardActionArea href="https://richard2878.github.io/Week2-Bootstrap-Portfolio/">
         <CardMedia
           flex= "1"
@@ -31,11 +35,10 @@ export default function MediaCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Portfolio Beta
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            HTML, CSS, JavaScript, Bootstrap, Terminal, GitHub
           </Typography>
         </CardContent>
       </CardActionArea>

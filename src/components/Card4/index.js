@@ -21,20 +21,23 @@ export default function MediaCard() {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root} style={{margin:'8px'}}>
+    <Card className={classes.root} 
+          style={{
+              margin:'8px', 
+              borderRadius:'15px 15px',
+              }}>
       <CardActionArea href="https://richard2878.github.io/Week4-Quiz/">
         <CardMedia
           className={classes.media}
           image="https://github.com/richard2878/Richar-A-Portfolio/blob/main/src/images/SW%20Quiz.JPG?raw=true"
-          title="Project Smood"
+          title="Starwars Quiz"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Starwars Quiz
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            HTML, CSS, JavaScript, Bootstrap, Terminal, GitHub, NodeJS
           </Typography>
         </CardContent>
       </CardActionArea>

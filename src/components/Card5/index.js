@@ -21,7 +21,11 @@ export default function MediaCard() {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root} style={{margin:'8px'}}>
+    <Card className={classes.root} 
+          style={{
+              margin:'8px', 
+              borderRadius:'15px 15px',
+              }}>
       <CardActionArea href="https://vast-shelf-10777.herokuapp.com/">
         <CardMedia
           className={classes.media}
@@ -30,11 +34,10 @@ export default function MediaCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Book List
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            HTML, CSS, JavaScript, NodeJS, Terminal, GitHub, MongoDB, Heroku
           </Typography>
         </CardContent>
       </CardActionArea>
