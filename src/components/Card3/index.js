@@ -22,11 +22,12 @@ export default function MediaCard() {
 
   return (
     <Card className={classes.root} style={{margin:'8px'}}>
-      <CardActionArea href="https://projectsmood.herokuapp.com/">
+      <CardActionArea href="https://richard2878.github.io/Week2-Bootstrap-Portfolio/">
         <CardMedia
+          flex= "1"
           className={classes.media}
-          image="https://github.com/richard2878/Richar-A-Portfolio/blob/main/src/images/SMood1.jpg?raw=true"
-          title="Project Smood"
+          image="https://github.com/richard2878/Richar-A-Portfolio/blob/main/src/images/Portfolio%20Beta.JPG?raw=true"
+          title="Portfolio Beta"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
