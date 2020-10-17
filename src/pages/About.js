@@ -59,7 +59,7 @@ function About() {
         <Row>
           <Col size="md-12" flex='1'>
             <p style={{color:'37323e'}}>
-              My name is Richard Antolin, I am a designer with an background in architecture.  I have learned early on that tools must function in way that humans feel comfortable when using them. 
+              My name is Richard Antolin, I am a designer with an background in architecture.  I have learned early on that tools must feel comfortable and easy to use. 
               Otherwise they will find other tools that will make the job easier to perform.  As a designer, I have responsibilty to provide products that are ageless and long lasting. Wether that is through
               the Apps I've built or the buildings that I have designed, the result should always be that "Form follows Function."  
               It took a while but I finally decided that I will persue my second career as a Full Stack Developer/UX Engineer. Fast forward, four months later, I have completed a Coding Bootcamp course at
