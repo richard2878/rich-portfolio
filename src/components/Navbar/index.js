@@ -46,7 +46,7 @@ function Navbar() {
 
       <div>
         <span className="navbar-nav"
-          style={{alignItems: 'right', marginLeft:'25px'}}>
+          style={{alignItems: 'right', marginLeft:'25px', marginBottom: '-20px'}}>
           
             <Tooltip title='About Me'>
               <div className="nav-item">
@@ -57,12 +57,12 @@ function Navbar() {
                       fontWeight:400,
                       color: "white",
                       backgroundColor: '#DEB841',
-                      borderRadius: '8px 8px 0px 0px',
+                      borderRadius: '10px 10px 10px 10px',
                       boxShadow: '3px 3px',
                       textAlign: 'center',
                       width: '110px',
                       marginRight:'20px',
-                      marginBottom:'10px',
+                      marginBottom: '10px'
                     }}
                     to="/"
                     className={window.location.pathname === "/" || 
@@ -81,10 +81,11 @@ function Navbar() {
                     fontWeight:400,
                     color: "white",
                     backgroundColor: '#DEB841',
-                    borderRadius: '8px 8px 0px 0px',
+                    borderRadius: '10px 10px 10px 10px',
                     boxShadow: '3px 3px',
                     textAlign: 'center',
                     width: '110px',
+                    marginBottom:'40px'
                   }}
                   
                   to="/portfolio"
