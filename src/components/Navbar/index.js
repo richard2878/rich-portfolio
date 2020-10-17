@@ -30,7 +30,7 @@ function Navbar() {
           fontSize:'55px',
           fontWeight:300,
           color: '#6D6A75',
-          marginLeft: '-45px',
+          marginLeft: '0px',
           marginBottom: '-50px',
           fontFamily: 'Source Sans Pro, sans-serif',
           textShadow: '3px 3px WHITE',}}>Richard Antolin
