@@ -30,7 +30,7 @@ export default function MediaCard() {
         <CardMedia
           className={classes.media}
           image="https://github.com/richard2878/Richar-A-Portfolio/blob/main/src/images/SW%20Quiz.JPG?raw=true"
-          title="Starwars Quiz"
+          title="Click here"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">

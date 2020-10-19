@@ -31,7 +31,7 @@ export default function MediaCard() {
           flex= "1"
           className={classes.media}
           image="https://github.com/richard2878/Richar-A-Portfolio/blob/main/src/images/Portfolio%20Beta.JPG?raw=true"
-          title="Portfolio Beta"
+          title="Click here"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
