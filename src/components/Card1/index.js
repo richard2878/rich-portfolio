@@ -42,7 +42,7 @@ export default function MediaCard() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" href="https://github.com/rbraun04/Trek">
           GitHub Repository
         </Button>
       </CardActions>

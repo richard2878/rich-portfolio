@@ -4,6 +4,7 @@ import "./style.css";
 import Logo from "../Logo";
 import Info from '@material-ui/icons/Info';
 import Laptop from '@material-ui/icons/Laptop';
+import WorkIcon from '@material-ui/icons/Work';
 import { Container, Tooltip } from '@material-ui/core';
 
 
@@ -56,7 +57,7 @@ function Navbar() {
                       fontSize: '14px',
                       fontWeight:400,
                       color: "white",
-                      backgroundColor: '#DE9E36',
+                      backgroundColor: '#DEB841',
                       borderRadius: '10px 10px 10px 10px',
                       boxShadow: '3px 3px',
                       textAlign: 'center',
@@ -80,18 +81,42 @@ function Navbar() {
                     fontSize: '14px',
                     fontWeight:400,
                     color: "white",
-                    backgroundColor: '#DE9E36',
+                    backgroundColor: '#DEB841',
                     borderRadius: '10px 10px 10px 10px',
                     boxShadow: '3px 3px',
                     textAlign: 'center',
                     width: '110px',
-                    marginBottom:'40px'
+                    marginRight:'20px',
+                    marginBottom:'10px'
                   }}
                   
                   to="/portfolio"
                   className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
                   Portfolio
                   <Laptop style={{fontSize:'25px', marginLeft:'10px'}}/>
+                </Link>
+              </div>
+            </Tooltip>
+
+            <Tooltip title='Resume'>
+              <div className="nav-item">
+                <Link
+                  style={{
+                    fontSize: '14px',
+                    fontWeight:400,
+                    color: "white",
+                    backgroundColor: '#DEB841',
+                    borderRadius: '10px 10px 10px 10px',
+                    boxShadow: '3px 3px',
+                    textAlign: 'center',
+                    width: '110px',
+                    marginBottom:'30px'
+                  }}
+                  
+                  to="/resume"
+                  className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}>
+                  Resume
+                  <WorkIcon style={{fontSize:'25px', marginLeft:'10px'}}/>
                 </Link>
               </div>
             </Tooltip>
