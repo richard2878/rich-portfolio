@@ -37,7 +37,9 @@ export default function MediaCard() {
             Project Magnem Opus
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            NodeJS, MySQL, CSS, HTML, Javascript, Bootstrap, Heroku
+            <span>Description: Project TREK is a choose your own adventure app. The app provides locations for hiking, eating, and meet-up place, uses the google map API to map the adventure.</span><br/><br/>
+
+            <span>Tech Used: NodeJS, MySQL, CSS, HTML, Javascript, Bootstrap, Heroku</span>
           </Typography>
         </CardContent>
       </CardActionArea>

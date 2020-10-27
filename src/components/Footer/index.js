@@ -8,7 +8,7 @@ import { Tooltip } from '@material-ui/core';
 function Footer() {
   return (
     <footer className="footer" style={{height:'80px'}}>
-      <center><span>R.A. Portfolio 2020</span></center>
+      <center><span>COPYRIGHT R.A. Portfolio 2020</span></center>
       
       
 

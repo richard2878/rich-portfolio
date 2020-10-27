@@ -37,7 +37,8 @@ export default function MediaCard() {
             Book List
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            HTML, CSS, JavaScript, NodeJS, Terminal, GitHub, MongoDB, Heroku
+            <span>Description: This app is a "books to read" list. The list updates when book is added and gets deleted when the book is removed from the list</span><br/><br/>
+            <span>Tech Used: HTML, CSS, JavaScript, NodeJS, Terminal, GitHub, MongoDB, Heroku</span>
           </Typography>
         </CardContent>
       </CardActionArea>

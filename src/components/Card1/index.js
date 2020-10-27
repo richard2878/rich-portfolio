@@ -37,7 +37,8 @@ export default function MediaCard() {
             Project Trek
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          Tech Used:  CSS, HTML, Bootstrap, API, JavaScript
+          <span>Description: Project TREK is an app where vendors can provide their information to store in a database where users can select vendors available  for service at an event.  Event attendees will need to input their information to receive the tickets required to attend the event.</span><br/><br/>  
+          <span>Tech Used:  CSS, HTML, Bootstrap, API, JavaScript</span>
           </Typography>
         </CardContent>
       </CardActionArea>

@@ -1,6 +1,6 @@
 import React from "react";
 
-function About() {
+function Email() {
   return (
     <div style={{color:'#37323e', marginTop:'30px', marginLeft:'130px'}}>
       If you would like to collaborate, please see my contact information below. <br/>
@@ -11,4 +11,4 @@ function About() {
   );
 }
 
-export default About;
+export default Email;

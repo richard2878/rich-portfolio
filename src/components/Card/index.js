@@ -37,7 +37,8 @@ export default function MediaCard() {
             SMood Spotify Player
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Tech Used:  REACT, CSS, HTML, Material UI, Bootstrap, Figma, Adobe Illustrator, Heroku
+            <span>Description:  Smood is a music player that uses Spotify API to play music with the mood of your choice.  There is also an option to search music by artist, album, and track.</span><br/><br/>
+            <span>Tech Used:  REACT, CSS, HTML, Material UI, Bootstrap, Figma, Adobe Illustrator, Heroku</span>
           </Typography>
         </CardContent>
       </CardActionArea>

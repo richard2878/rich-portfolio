@@ -38,7 +38,8 @@ export default function MediaCard() {
             Portfolio Beta
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            HTML, CSS, JavaScript, Bootstrap, Terminal, GitHub
+            <span>Description: Portfolio draft, using HTML and CSS.</span><br/><br/>
+            <span>Tech Used: HTML, CSS, JavaScript, Bootstrap, Terminal, GitHub</span>
           </Typography>
         </CardContent>
       </CardActionArea>

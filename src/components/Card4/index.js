@@ -37,7 +37,8 @@ export default function MediaCard() {
             Starwars Quiz
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            HTML, CSS, JavaScript, Bootstrap, Terminal, GitHub, NodeJS
+            <span>Description: A quiz related to Star Wars characters. Includes a timer per question and a counter for correct/wrong answers.</span><br/><br/>
+            <span>Tech Used: HTML, CSS, JavaScript, Bootstrap, Terminal, GitHub, NodeJS</span>
           </Typography>
         </CardContent>
       </CardActionArea>
