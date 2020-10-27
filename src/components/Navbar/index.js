@@ -31,7 +31,7 @@ function Navbar() {
           fontSize:'55px',
           fontWeight:300,
           color: '#6D6A75',
-          marginLeft: '0px',
+          marginLeft: '-5px',
           marginBottom: '-50px',
           fontFamily: 'Source Sans Pro, sans-serif',
           textShadow: '3px 3px WHITE',}}>Richard Antolin
@@ -41,6 +41,13 @@ function Navbar() {
           fontSize:'20px',
           textShadow: '2px 2px #white',
           }}>Full Stack Web Developer/UX Engineer
+        </text><br/>        
+        <text style={{
+          color: 'white',
+          fontSize:'12px',
+          marginTop: '-20px',
+          textShadow: '2px 2px #white',
+          }}>CONTACT INFO: RICHARDANTOLIN@GMAIL.COM
         </text>
       </div>
       
