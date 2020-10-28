@@ -10,40 +10,47 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 400,
+    margin:'8px', 
+    borderRadius:'15px 15px',
+    marginBottom: '50px'
   },
   media: {
-    height: 600,
+    height: '160px',
+    width: '350px',
+    padding: 0,
+    margin: 0,
+
+    flex: 1
   },
+  body: {
+    height: 250
+  }
 });
 
-export default function MediaCard() {
+export default function MediaCard(props) {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root} 
-          style={{
-              margin:'8px', 
-              borderRadius:'15px 15px',
-              }}>
-      <CardActionArea href="https://projectsmood.herokuapp.com/">
+    <Card className={classes.root}>
+      <CardActionArea href={props.href}>
         <CardMedia
           className={classes.media}
-          image="https://github.com/richard2878/Richar-A-Portfolio/blob/main/src/images/SMood1.jpg?raw=true"
+          image={props.img}
           title="Click here"
         />
-        <CardContent>
+        <CardContent className={classes.body}>
           <Typography gutterBottom variant="h5" component="h2">
-            SMood Spotify Player
+            {props.title}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            <span>Description:  Smood is a music player that uses Spotify API to play music with the mood of your choice.  There is also an option to search music by artist, album, and track.</span><br/><br/>
-            <span>Tech Used:  REACT, CSS, HTML, Material UI, Bootstrap, Figma, Adobe Illustrator, Heroku</span>
+            <span>{props.desc1}</span><br/><br/>
+            <span>{props.desc2}</span>
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary" href="https://github.com/tpacba/project-smood">
+        <Button size="small" color="primary" href={props.repo}>
           GitHub Repository
         </Button>
       </CardActions>
