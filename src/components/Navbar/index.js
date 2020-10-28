@@ -72,8 +72,8 @@ function Navbar() {
                       marginRight:'20px',
                       marginBottom: '10px'
                     }}
-                    to="/"
-                    className={window.location.pathname === "/" || 
+                    to="/about"
+                    className={window.location.pathname === "/about" || 
                               window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>
                     About
                   <Info style={{fontSize:'25px', marginLeft:'10px'}}/>
