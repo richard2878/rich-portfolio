@@ -21,7 +21,7 @@ function Navbar() {
       <Logo/>
       <div 
         className="navbar-brand" 
-        to="/"
+        to="/rich-portfolio"
         style={{
           padding: 'none',
           height: '160px',
