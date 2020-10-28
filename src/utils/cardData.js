@@ -1,5 +1,5 @@
-import img1 from "../images/sMood1.jpg";
-import img2 from "../images/trek5.jpg";
+import img1 from "../images/sMood.jpg"
+import img2 from "../images/trek5.jpg"
 import img3 from "../images/magnemOpus.jpg"
 import img4 from "../images/portfolioBeta.jpg"
 import img5 from "../images/swQuiz.jpg"
