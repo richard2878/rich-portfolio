@@ -39,6 +39,7 @@ function Navbar() {
         <text style={{
           color: 'white',
           fontSize:'20px',
+          marginBottom:'-50px',
           textShadow: '2px 2px #white',
           }}>Full Stack Web Developer/UX Engineer
         </text><br/>        
@@ -73,7 +74,7 @@ function Navbar() {
                       marginBottom: '10px'
                     }}
                     to="/about"
-                    className={window.location.pathname === "/about" || 
+                    className={window.location.pathname === "/rich-portfolio" || 
                               window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>
                     About
                   <Info style={{fontSize:'25px', marginLeft:'10px'}}/>
