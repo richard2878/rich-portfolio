@@ -72,7 +72,7 @@ function Navbar() {
                       marginRight:'20px',
                       marginBottom: '10px'
                     }}
-                    to="/about"
+                    to="/"
                     className={window.location.pathname === "/" || 
                               window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>
                     About
